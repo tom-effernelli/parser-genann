@@ -265,11 +265,11 @@ int main(int argc, char *argv[])
       ann = load_model();
     }
 
-    if (1) { /* Replace 1 by argv[1] */
+    if (argv[1]) {
         train_model(ann);
     } else {
         double embeddings[MAX_TOKENS][VECTOR_SIZE];
-        char input[] = "Hi, my name is Olivia Brown and I'm looking for legal help for workplace harassment."; /* Replace this string by  argv[2] */
+        char input[] = argv[2]
         embedding(ht, input, embeddings);
     
         int i = 0;
