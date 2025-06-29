@@ -9,7 +9,7 @@ It uses glove.6B.50d.txt file as a word embedding file, then uses tokens.txt and
 
 ## How it is used
 
-Just download the repo, compile the parsingGenann.c with gcc and launch it with argv[1]=bool_is_model_training (set at true if the model is intended to be trained on the dataset, false if you want to use the model), argv[2]=prompt (string format).
+Just download the repo, compile the parser-genann.c with gcc and launch it with argv[1]=bool_is_model_training (set at true if the model is intended to be trained on the dataset, false if you want to use the model), argv[2]=prompt (string format).
 
 ## What it sends back
 
